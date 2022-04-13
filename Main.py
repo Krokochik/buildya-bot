@@ -428,6 +428,4 @@ async def delete(ctx, *, categoryName: str, condition=False):
             await ctx.send(embed=discord.Embed(title="Категории не существует 👻", colour=discord.Color.red()))
 
 
-token = open("./token.txt", "r").readline()
-
-client.run(token)
+client.run("OTA5MTI5OTcyMTgxMDA0MzU4.YY_zRA.pLBflTPTBsM20eXYuO_5mVMTNmU")
